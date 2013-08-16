@@ -1,4 +1,4 @@
-commons-jpa
-===========
+jpql-querybuilder
+=================
 
-A library with a small set of classes to make working with JPA and JPQL easier
+Create dynamic JPQL queries with a fluent API without cluttering code with String concatenations.
