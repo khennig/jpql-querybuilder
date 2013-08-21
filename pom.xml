@@ -105,16 +105,11 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
-
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-			</plugin>
 		</plugins>
 	</build>
 
 	<scm>
-		<connection>scm:git@github.com:khennig/jpql-querybuilder.git</connection>
-		<developerConnection>scm:git@github.com:khennig/jpql-querybuilder.git</developerConnection>
+		<connection>scm:git:git@github.com:khennig/jpql-querybuilder.git</connection>
+		<developerConnection>scm:git:git@github.com:khennig/jpql-querybuilder.git</developerConnection>
 	</scm>
 </project>
