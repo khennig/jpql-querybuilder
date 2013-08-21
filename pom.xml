@@ -5,9 +5,17 @@
 	<groupId>com.tri-systems.commons</groupId>
 	<artifactId>jpql-querybuilder</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	
+
 	<name>TRI JPQL Query Builder</name>
 	<description>Create dynamic JPQL queries with a fluent API without cluttering code with String concatenations</description>
+
+	<licenses>
+		<license>
+			<name>The MIT License (MIT)</name>
+			<url>https://github.com/khennig/jpql-querybuilder/blob/master/LICENSE</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
