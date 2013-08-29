@@ -41,8 +41,8 @@ JPQL Querybuilder uses Apache Maven as Build Tool
 * cd jpql-querybuilder
 * mvn install
 
-## Add it to your project
-Include the following dependency pom.xml:/project/dependencies
+## Adding it to your project
+Add the following dependency to pom.xml:/project/dependencies
 
     <dependency>
         <groupId>com.tri-systems.persistence</groupId>
