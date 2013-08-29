@@ -43,9 +43,11 @@ return builder.createQuery(entityManager, Entity.class).getResultList();
 ## Building it
 JPQL Querybuilder uses Apache Maven as Build Tool 
 
-* git clone https://github.com/khennig/jpql-querybuilder.git
-* cd jpql-querybuilder
-* mvn install
+```bash
+git clone https://github.com/khennig/jpql-querybuilder.git
+cd jpql-querybuilder
+mvn install
+```
 
 ## Adding it to your project
 Add the following dependency to pom.xml:/project/dependencies
