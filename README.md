@@ -44,11 +44,13 @@ JPQL Querybuilder uses Apache Maven as Build Tool
 ## Adding it to your project
 Add the following dependency to pom.xml:/project/dependencies
 
-    <dependency>
-        <groupId>com.tri-systems.persistence</groupId>
-        <artifactId>jpql-querybuilder</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-    </dependency>
+```xml
+<dependency>
+    <groupId>com.tri-systems.persistence</groupId>
+    <artifactId>jpql-querybuilder</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+</dependency>
+```
 
 ## License
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
