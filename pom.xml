@@ -125,7 +125,7 @@
 
 	<scm>
 		<url>https://github.com/khennig/jpql-querybuilder</url>
-		<connection>scm:git:https://github.com/khennig/jpql-querybuilder.git</connection>
+		<connection>scm:git:git@github.com:khennig/jpql-querybuilder.git</connection>
 		<developerConnection>scm:git:git@github.com:khennig/jpql-querybuilder.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
