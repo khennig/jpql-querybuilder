@@ -1,11 +1,8 @@
 package com.tri.persistence.jpql;
 
-import static org.fest.assertions.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
-
-import com.tri.persistence.jpql.Order;
-import com.tri.persistence.jpql.OrderColumn;
 
 public class OrderColumnTest {
 
