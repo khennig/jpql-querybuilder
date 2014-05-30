@@ -56,7 +56,7 @@ Add the following dependency to pom.xml:/project/dependencies
 <dependency>
     <groupId>com.tri-systems.persistence</groupId>
     <artifactId>jpql-querybuilder</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 </dependency>
 ```
 
