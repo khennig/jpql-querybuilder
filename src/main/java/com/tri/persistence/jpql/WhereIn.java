@@ -24,6 +24,8 @@ public class WhereIn extends WhereItem {
 	 *            {@literal SQL} Expression, e.g. expression in
 	 *            {@code expression IN (...)}, actually the left part of the
 	 *            predicate
+	 * @param not
+	 *            use NOT IN if true
 	 * @param collection
 	 *            set of literal values
 	 */
@@ -53,6 +55,8 @@ public class WhereIn extends WhereItem {
 	 *            {@literal SQL} expression, e.g. expression in
 	 *            {@code expression IN (...)}, actually the left part of the
 	 *            predicate
+	 * @param not
+	 *            use NOT IN if true
 	 * @param collection
 	 *            set of literal values
 	 */

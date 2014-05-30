@@ -8,7 +8,7 @@ import java.util.Collection;
  * Logical structure item of a {@literal SQL} Where Clause (actually an
  * {@literal SQL} predicate). There are implementations for logically
  * {@code AND}/{@code OR} ({@link WhereAnd}, {@link WhereOr}) collections and
- * sub-queries ( {@link WhereSubQuery}).
+ * sub-queries ( {@link WhereSubquery}).
  * </p>
  * <p>
  * This class contains most needed helper methods to build the Where Clause of
@@ -57,6 +57,8 @@ abstract public class WhereItems extends WhereItem {
 	/**
 	 * Add a {@link WhereItem} to this object.
 	 * 
+	 * @param item
+	 *            WhereItem to be added
 	 * @return this object
 	 */
 	public WhereItem add(final WhereItem item) {

@@ -32,7 +32,10 @@ abstract public class Parameter<T> {
 	 * Constructor
 	 * 
 	 * @param name
+	 *            parameter name
 	 * @param value
+	 *            parameter value, pass an immutable object or pass a copy not
+	 *            used any further
 	 */
 	public Parameter(final String name, final T value) {
 		this.name = name;
@@ -44,7 +47,10 @@ abstract public class Parameter<T> {
 	 * Constructor
 	 * 
 	 * @param position
+	 *            position
 	 * @param value
+	 *            parameter value, pass an immutable object or pass a copy not
+	 *            used any further
 	 */
 	public Parameter(final int position, final T value) {
 		this.position = position;
@@ -54,8 +60,6 @@ abstract public class Parameter<T> {
 
 	/**
 	 * Applies this parameter to given query.
-	 * 
-	 * @param query
 	 */
 	public abstract void apply(Query query);
 

@@ -33,7 +33,7 @@ import com.tri.persistence.jpql.utils.StringUtils;
  * builder.from.add("Entity e");
  * builder.where.add("e.fieldname=:fieldname");
  * builder.setParameter("fieldname", "xyz");
- * TypedQuery<Long> query = builder.createQuery(entityManager, Entity.class)
+ * TypedQuery&lt;Long&gt; query = builder.createQuery(entityManager, Entity.class)
  * return query.getResultList();
  * </pre>
  * <p>
@@ -182,6 +182,8 @@ public class QueryBuilder implements Cloneable {
 	 * 
 	 * @param manager
 	 *            JPA EntityManager
+	 * @param type
+	 *            the type of the query result
 	 * @return JPA Query
 	 */
 	public <T> TypedQuery<T> createQuery(final EntityManager manager,

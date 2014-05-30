@@ -67,6 +67,10 @@ public class StringUtils {
 	/**
 	 * Returns true if the given string is null, empty or contains whitespace
 	 * only.
+	 * 
+	 * @param str
+	 *            the String to check, may be null
+	 * @return {@code true} if the String is null, empty or whitespace
 	 */
 	public static boolean isBlank(final String str) {
 		final int strLength = (str == null) ? 0 : str.length();

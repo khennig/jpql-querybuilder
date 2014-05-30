@@ -31,6 +31,8 @@ public class OrderColumn {
 
 	/**
 	 * Renders this object as {@literal JPQL} fragment.
+	 * 
+	 * @return OrderColumn rendered as String 
 	 */
 	public String render() {
 		StringBuilder builder = new StringBuilder(column);

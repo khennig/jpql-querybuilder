@@ -29,6 +29,8 @@ abstract public class WhereItem implements Cloneable {
 
 	/**
 	 * Renders this item as {@literal JPQL} fragment.
+	 * 
+	 * @return WhereItem rendered as String
 	 */
 	public abstract String render();
 

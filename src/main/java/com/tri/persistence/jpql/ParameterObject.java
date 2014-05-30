@@ -13,6 +13,7 @@ public class ParameterObject extends Parameter<Object> {
 	 * Constructor
 	 * 
 	 * @param name
+	 *            parameter name
 	 * @param value
 	 *            parameter value, pass an immutable object or pass a copy not
 	 *            used any further
@@ -24,7 +25,8 @@ public class ParameterObject extends Parameter<Object> {
 	/**
 	 * Constructor
 	 * 
-	 * @param name
+	 * @param position
+	 *            position
 	 * @param value
 	 *            parameter value, pass an immutable object or pass a copy not
 	 *            used any further
