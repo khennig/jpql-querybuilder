@@ -10,7 +10,7 @@
 
 	<groupId>com.tri-systems.persistence</groupId>
 	<artifactId>jpql-querybuilder</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>TRI JPQL Query Builder</name>
@@ -126,7 +126,7 @@
 		<url>https://github.com/khennig/jpql-querybuilder</url>
 		<connection>scm:git:git@github.com:khennig/jpql-querybuilder.git</connection>
 		<developerConnection>scm:git:git@github.com:khennig/jpql-querybuilder.git</developerConnection>
-		<tag>jpql-querybuilder-1.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<developers>
