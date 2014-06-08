@@ -60,5 +60,7 @@ Add the following dependency to pom.xml:/project/dependencies
 </dependency>
 ```
 
+Binaries are available at Maven Central.
+
 ## License
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
