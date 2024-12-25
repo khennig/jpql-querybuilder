@@ -1,4 +1,4 @@
-target/
+target
 .classpath
 .project
 .settings
@@ -7,3 +7,5 @@ target/
 nb-configuration.xml
 *.NavData
 .metadata
+jpql-querybuilder.iml
+.idea
